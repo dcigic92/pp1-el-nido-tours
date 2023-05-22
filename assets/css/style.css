@@ -31,3 +31,25 @@ body {
     left: 30px;
     top: 30px;
 }
+
+/* Navigation */
+
+#menu {
+    background-color: burlywood;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-family: Fjalla One, sans-serif;
+}
+
+#menu > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 200%;
+    margin-right: 50px;
+}
+
+#menu > a:hover {
+	color: black;
+}
