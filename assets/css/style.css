@@ -53,3 +53,90 @@ body {
 #menu > a:hover {
 	color: black;
 }
+
+/* Main content */
+
+.wrapper {
+    height: 400px;
+    margin-top: 50px;
+}
+
+.container-left {
+    height: 100%;
+    width: 49%;
+    float: left;
+    background-color: burlywood;
+    border-radius: 50px;
+    margin: 0 0.5%;
+} 
+
+.container-right {
+    height: 100%;
+    width: 49%;
+    float: right;
+    background-color: burlywood;
+    border-radius: 50px;
+    margin: 0 0.5px;
+}
+
+/* Main content images */
+
+.image-container {
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+}
+
+#image-tour-a {
+    background: url(../images/kayak.jpg);
+    background-position-y: 70%;
+    background-position-x: 20%;
+}
+
+#image-tour-b {
+    background: url(../images/coconut.jpg);
+    background-position-y: 70%;
+    background-position-x: 25%;
+}
+
+#image-tour-c {
+    background: url(../images/beach.jpg);
+    background-position-y: 70%;
+    background-position-x: 80%;
+}
+
+#image-tour-d {
+    background: url(../images/beach2.jpg);
+    background-position-y: 70%;
+    background-position-x: 35%;
+}
+
+/* Main content text */
+
+.text-container {
+    width: 50%;
+    float: right;
+}
+
+.text-container > h2 {
+    margin: 30px 0 20px 0;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.text-container li {
+    font-weight: bold;
+    font-size: 150%;
+    list-style-position: inside;
+    padding: 8px;
+}
