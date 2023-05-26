@@ -39,7 +39,7 @@ body {
 /* Navigation */
 
 #menu {
-    background-color: burlywood;
+    background-color: saddlebrown;
     height: 60px;
     line-height: 60px;
     text-align: center;
@@ -137,4 +137,32 @@ body {
     font-size: 150%;
     list-style-position: inside;
     padding: 8px;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    background-color:saddlebrown;
+    margin-top: 50px;
+}
+
+footer h3 {
+    color: aliceblue;
+    font-size: 150%;
+}
+
+#socials > li {
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+#socials i {
+    color: aliceblue;
+    font-size: 200%;
+}
+
+#socials i:hover {
+	color: black;
 }
