@@ -56,7 +56,11 @@ body {
 }
 
 #menu > a:hover {
-	color: black;
+	color: burlywood;
+}
+
+.active {
+    border-bottom: 2px solid aliceblue;
 }
 
 /* Main content */
@@ -160,10 +164,11 @@ body {
 
 .button-left {
     background-color: aliceblue;
+    border: 1px solid saddlebrown;
 }
 
 .button-left:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .button-left > a {
@@ -172,10 +177,11 @@ body {
 
 .button-right {
     background-color: saddlebrown;
+    border: 1px solid aliceblue;
 }
 
 .button-right:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .button-right > a {
@@ -213,5 +219,6 @@ footer h3 {
 }
 
 #socials i:hover {
-	color: black;
+    transform: scale(1.5);
+    text-shadow: 3px 3px black;
 }
