@@ -144,11 +144,54 @@ body {
     padding: 8px;
 }
 
+/* Buttons */
+
+.buttons-container {
+    margin-top: 30px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+.button-left {
+    background-color: aliceblue;
+}
+
+.button-left:hover {
+    transform: scale(1.1);
+}
+
+.button-left > a {
+    color: saddlebrown;
+}
+
+.button-right {
+    background-color: saddlebrown;
+}
+
+.button-right:hover {
+    transform: scale(1.1);
+}
+
+.button-right > a {
+    color: aliceblue;
+}
+
+.button > a {
+    text-decoration: none;
+    font-size: 125%;
+}
+
 /* Footer */
 
 footer {
     height: 100px;
-    background-color:saddlebrown;
+    background-color: saddlebrown;
     margin-top: 50px;
     border-top: 1.5px dashed aliceblue;
 }
