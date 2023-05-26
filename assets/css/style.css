@@ -24,13 +24,16 @@ body {
 
 #page-header > h1 {
     color: aliceblue;
-    text-transform: uppercase;
-    font-family: Fjalla One, sans-serif;
     font-size: 300%;
     position: relative;
     left: 30px;
     top: 30px;
     width: fit-content;
+}
+
+.special-text {
+    text-transform: uppercase;
+    font-family: Fjalla One, sans-serif;
 }
 
 /* Navigation */
@@ -40,12 +43,10 @@ body {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    font-family: Fjalla One, sans-serif;
 }
 
 #menu > a {
     text-decoration: none;
-    text-transform: uppercase;
     color: aliceblue;
     font-size: 200%;
     margin-right: 50px;
@@ -62,36 +63,37 @@ body {
     margin-top: 50px;
 }
 
-.container-left {
-    height: 100%;
-    width: 49%;
-    float: left;
+.content-bg {
     background-color: burlywood;
     border-radius: 50px;
-    margin: 0 0.5%;
+}
+
+.container-left {
+    height: 100%;
+    width: 50%;
+    float: left;
 } 
 
 .container-right {
     height: 100%;
-    width: 49%;
+    width: 50%;
     float: right;
-    background-color: burlywood;
-    border-radius: 50px;
-    margin: 0 0.5px;
+}
+
+.divider {
+    width: 49%;
+    margin: 0 0.5%;
 }
 
 /* Main content images */
 
-.image-container {
-    height: 100%;
-    width: 50%;
-    float: left;
+.center-content {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.images {
+.image {
     width: 300px;
     height: 300px;
     border-radius: 30%;
@@ -122,11 +124,6 @@ body {
 }
 
 /* Main content text */
-
-.text-container {
-    width: 50%;
-    float: right;
-}
 
 .text-container > h2 {
     margin: 30px 0 20px 0;
