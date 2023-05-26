@@ -155,7 +155,6 @@ body {
 }
 
 .button {
-    border: 1px solid black;
     border-radius: 50px;
     width: 100px;
     height: 30px;
@@ -221,4 +220,55 @@ footer h3 {
 #socials i:hover {
     transform: scale(1.5);
     text-shadow: 3px 3px black;
+}
+
+/* About page content */
+
+#about-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 750px;
+    border: 1.5px dashed aliceblue;
+}
+
+#about-container > h2 {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 250%;
+}
+
+#about-container ul {
+    width: fit-content;
+    position: relative;
+    left: 10%;
+}
+
+#about-container li {
+    font-weight: bold;
+    list-style: none;
+    padding: 8px;
+}
+
+.bigger-text {
+    font-size: 160%;
+}
+
+.bigger-text > i {
+    font-size: 130%;
+    margin-right: 20px;
+}
+
+.smaller-text {
+    font-size: 70%;
+}
+
+/* About page buttons */
+
+#about-buttons {
+    margin-top: 50px;
+}
+
+#price-button {
+    width: 150px;
+    margin: 0 20px;
 }
