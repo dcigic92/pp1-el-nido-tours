@@ -134,7 +134,7 @@ body {
 
 /* Main content text */
 
-.text-container > h2 {
+.title {
     margin: 30px 0 20px 0;
     text-align: center;
     font-size: 200%;
@@ -271,4 +271,80 @@ footer h3 {
 #price-button {
     width: 150px;
     margin: 0 20px;
+}
+
+/* Contact page */
+
+#contact-wrapper {
+    height: 550px;
+}
+
+.content-width {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* Contact page form */
+
+.field-properties {
+    width: 100%;
+    margin: 8px 0;
+    border: 1.5px dashed burlywood;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+input {
+    padding: 10px 10px;
+}
+
+input[type=submit] {
+    width: 40%;
+    margin: 8px 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: saddlebrown;
+    color: aliceblue;
+}
+
+input[type=submit]:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+textarea {
+    padding: 12px 20px;
+    height: 150px;
+    resize: none;
+}
+
+/* Contact details */
+
+#contact-details li {
+    font-weight: bold;
+    list-style: none;
+    padding: 8px;
+}
+
+#contact-details h3 {
+    font-size: 150%;
+}
+
+#contact-list i {
+    font-size: 120%;
+    margin-right: 20px;
+}
+
+#message-icons {
+    margin-top: 50px;
+}
+
+#message-icons i {
+    color: saddlebrown;
+    font-size: 150%;
+    margin-left: 50px;
+}
+
+#message-icons i:hover {
+    transform: scale(1.15);
 }

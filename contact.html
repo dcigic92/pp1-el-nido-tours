@@ -25,8 +25,51 @@
         <a href="booking.html">Booking</a>
         <a href="contact.html" class="active">Contact</a>
     </nav>
-    <section>
-
+    <section id="contact-wrapper" class="wrapper">
+        <div id="form-container" class="container-left content-bg divider">
+            <h2 class="title">Contact us</h2>
+            <form method="post" action="#" class="content-width">
+                <input type="text" id="fname" name="first_name" placeholder="First name" class="field-properties"  required>
+                <input type="text" id="lname" name="last_name" placeholder="Last name" class="field-properties"  required>
+                <input type="email" id="email" name="email" placeholder="Email" class="field-properties"  required>
+                <textarea id="message" name="message" placeholder="Type your message here..." class="field-properties" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <div id="contact-details" class="text-container container-right content-bg divider">
+            <h2 class="title">Contact details</h2>
+            <ul id="contact-list" class="content-width">
+                <li>
+                    <span><i class="fa-solid fa-phone"></i>Phone:</span>
+                    <span>012-345-6789</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-envelope"></i>Email:</span>
+                    <span>elnidotours@gmail.com</span>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-location-dot"></i>Address:</span>
+                    <span>Buena Suerte, El Nido, Philippines, 59JR+945</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-clock"></i>Office opening times:</span>
+                    <span>Every day from 8am to 3pm</span>
+                </li>
+            </ul>
+            <div id="message-icons" class="center-content">
+                <h3>Text us anytime:</h3>
+                <ul class="center-content">
+                    <li>
+                        <a href="https://www.whatsapp.com/" target="_blank" rel="noopener"
+                        aria-label="Message us on whatsapp (opens in a new tab)"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.messenger.com/" target="_blank" rel="noopener"
+                        aria-label="Message us on messenger (opens in a new tab)"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
     <footer>
         <div id="copyright-container" class="container-left center-content special-text">
