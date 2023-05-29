@@ -348,3 +348,16 @@ textarea {
 #message-icons i:hover {
     transform: scale(1.15);
 }
+
+/*  Map  */
+
+#map-container {
+    height: 650px;
+    margin: 50px 0.5% 0 0.5%;
+    border: 1.5px dashed aliceblue;
+}
+
+#map-container iframe {
+    border-radius: 50px;
+    border: 1px solid aliceblue;
+}
