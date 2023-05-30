@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -9,15 +9,23 @@
 
 body {
     background-color: aliceblue;
-    font-weight: 300;
+    font-size: x-large;
     font-family: Lato, sans-serif;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, .special-text {
+    text-transform: uppercase;
+    font-family: Fjalla One, sans-serif;
+    letter-spacing: 1px;
 }
 
 /* Header */
 
 #page-header {
     background: url(../images/header-image.jpg);
-    height: 40vh;
+    height: 340px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 60%;
@@ -25,16 +33,11 @@ body {
 
 #page-header > h1 {
     color: aliceblue;
-    font-size: 300%;
+    font-size: 200%;
     position: relative;
     left: 30px;
     top: 30px;
     width: fit-content;
-}
-
-.special-text {
-    text-transform: uppercase;
-    font-family: Fjalla One, sans-serif;
 }
 
 /* Navigation */
@@ -51,7 +54,7 @@ body {
 #menu > a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 200%;
+    font-size: 150%;
     margin-right: 50px;
 }
 
@@ -66,7 +69,7 @@ body {
 /* Main content */
 
 .wrapper {
-    height: 400px;
+    height: 450px;
     margin-top: 50px;
 }
 
@@ -102,9 +105,9 @@ body {
 }
 
 .image {
-    width: 300px;
-    height: 300px;
-    border-radius: 30%;
+    width: 350px;
+    height: 350px;
+    border-radius: 25%;
     border: 1px solid aliceblue;
 }
 
@@ -135,17 +138,15 @@ body {
 /* Main content text */
 
 .title {
-    margin: 30px 0 20px 0;
+    margin: 30px 0 25px 0;
     text-align: center;
-    font-size: 200%;
-    font-weight: bold;
+    font-size: 175%;
 }
 
 .text-container li {
-    font-weight: bold;
-    font-size: 150%;
-    list-style-position: inside;
     padding: 8px;
+    list-style: circle;
+    list-style-position: inside;
 }
 
 /* Buttons */
@@ -156,9 +157,8 @@ body {
 
 .button {
     border-radius: 50px;
-    width: 100px;
-    height: 30px;
-    margin: 0 20px;
+    width: 150px;
+    height: 40px;
 }
 
 .button-left {
@@ -177,6 +177,7 @@ body {
 .button-right {
     background-color: saddlebrown;
     border: 1px solid aliceblue;
+    margin-left: 40px;
 }
 
 .button-right:hover {
@@ -189,7 +190,6 @@ body {
 
 .button > a {
     text-decoration: none;
-    font-size: 125%;
 }
 
 /* Footer */
@@ -203,7 +203,6 @@ footer {
 
 footer h3 {
     color: aliceblue;
-    font-size: 150%;
 }
 
 #socials > li {
@@ -214,7 +213,7 @@ footer h3 {
 
 #socials i {
     color: aliceblue;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 #socials i:hover {
@@ -227,50 +226,27 @@ footer h3 {
 #about-container {
     margin-left: 5%;
     margin-right: 5%;
-    height: 750px;
+    height: 850px;
     border: 1.5px dashed aliceblue;
 }
 
-#about-container > h2 {
-    padding: 20px 0;
-    text-align: center;
-    font-size: 250%;
-}
-
 #about-container ul {
-    width: fit-content;
-    position: relative;
-    left: 10%;
+    width: 85%;
+    margin: 0 7.5%;
 }
 
-#about-container li {
-    font-weight: bold;
+#about-container h4 {
+    display: inline;
+}
+
+.list-properties li {
     list-style: none;
     padding: 8px;
 }
 
-.bigger-text {
-    font-size: 160%;
-}
-
-.bigger-text > i {
-    font-size: 130%;
+.icons {
     margin-right: 20px;
-}
-
-.smaller-text {
-    font-size: 70%;
-}
-
-/* About page buttons */
-
-#about-buttons {
-    margin-top: 50px;
-}
-
-#price-button {
-    width: 150px;
-    margin: 0 20px;
+    font-size: 150%;
 }
 
 /* Contact page */
@@ -291,6 +267,7 @@ footer h3 {
     margin: 8px 0;
     border: 1.5px dashed burlywood;
     border-radius: 50px;
+    font-size: 80%;
     background-color: aliceblue;
 }
 
@@ -304,6 +281,7 @@ input[type=submit] {
     border-radius: 50px;
     border: 1px solid black;
     background-color: saddlebrown;
+    font-size: 80%;
     color: aliceblue;
 }
 
@@ -320,33 +298,23 @@ textarea {
 
 /* Contact details */
 
-#contact-details li {
-    font-weight: bold;
-    list-style: none;
-    padding: 8px;
-}
-
-#contact-details h3 {
-    font-size: 150%;
-}
-
-#contact-list i {
-    font-size: 120%;
-    margin-right: 20px;
+#contact-list h4 {
+    display: inline;
+    margin-right: 10px;
 }
 
 #message-icons {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #message-icons i {
     color: saddlebrown;
+    margin-left: 40px;
     font-size: 150%;
-    margin-left: 50px;
 }
 
 #message-icons i:hover {
-    transform: scale(1.15);
+    transform: scale(1.25);
 }
 
 /*  Map  */
