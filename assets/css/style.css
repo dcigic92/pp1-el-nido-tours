@@ -34,10 +34,7 @@ h1, h2, h3, h4, .special-text {
 #page-header > h1 {
     color: aliceblue;
     font-size: 200%;
-    position: relative;
-    left: 30px;
-    top: 30px;
-    width: fit-content;
+    padding: 20px 0 0 20px;
 }
 
 /* Navigation */
