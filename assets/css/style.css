@@ -246,6 +246,67 @@ footer h3 {
     font-size: 150%;
 }
 
+/* Booking page */
+
+#booking-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 900px;
+    border: 1.5px dashed aliceblue;
+}
+
+#booking-container form {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#booking-container input {
+    border: 1.5px dashed burlywood;
+    border-radius: 50px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.form-margin {
+    margin: 20px 0 20px 0;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}
+
+.label-left {
+    width: 15%;
+    float: left;
+}
+
+.field-right {
+    width: 85%;
+    float: right;
+}
+
+#number-of-tickets label {
+    margin-right: 20px;
+}
+
+#number-of-tickets input {
+    width: 50px;
+    height: 30px;
+}
+
+#choose-date label {
+    margin-right: 20px;
+}
+
+.radio-margin input {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
 /* Contact page */
 
 #contact-wrapper {
@@ -276,7 +337,7 @@ input[type=submit] {
     width: 40%;
     margin: 8px 30%;
     border-radius: 50px;
-    border: 1px solid black;
+    border: 1.5px dashed burlywood;
     background-color: saddlebrown;
     font-size: 80%;
     color: aliceblue;
