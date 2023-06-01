@@ -403,6 +403,8 @@ textarea {
     border-radius: 50px;
     border: 1px solid aliceblue;
     margin-bottom: 50px;
+    width: 95%;
+    height: 500px;
 }
 
 /* Confirmation pages */
@@ -433,13 +435,13 @@ textarea {
     }
 
     .container-top {
-        height: 47.5%;
+        height: 450px;
         width: 100%;
         margin: 0 0 50px 0;
     } 
     
     .container-bottom {
-        height: 47.5%;
+        height: 450px;
         width: 100%;
         margin: 0 0 0 0;
     }
@@ -464,4 +466,58 @@ textarea {
         margin-left: 30px;
     }
 
+    #map-container iframe {
+        width: 90%;
+    }
+}
+
+/* For medium screen sizes from 992px wide and down */
+@media screen and (max-width: 992px) {
+    .buttons-container {
+        bottom: 10%;
+        right: 13%;
+    }
+
+    footer {
+        height: 200px;
+        position: relative;
+    }
+
+    #socials-container {
+        height: 50%;
+        width: 100%;
+        border-bottom: 1.5px dashed aliceblue;
+    } 
+    
+    #copyright-container {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #booking-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #contact-wrapper {
+        height: 1100px;
+        margin: 50px 5% 0 5%;
+    }
+
+    #form-container {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+
+    #contact-details {
+        width: 100%;
+        height: 500px;
+    }
+
+    #map-container{
+        margin: 50px 5% 0 5%;
+    }
 }
