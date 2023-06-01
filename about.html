@@ -19,11 +19,14 @@
     <header id="page-header" class="special-text">
         <h1>Welcome to El Nido Tours!</h1>
     </header>
-    <nav id="menu" class="special-text">
+    <nav id="menu" class="top-menu">
         <a href="index.html">Home</a>
         <a href="about.html" class="active">About</a>
         <a href="booking.html">Booking</a>
         <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </nav>
     <section id="about-container" class="content-bg top-margin">
         <h2 class="title">About our tours</h2>
@@ -88,6 +91,16 @@
             </ul>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.className === "top-menu") {
+            x.className += " responsive";
+            } else {
+            x.className = "top-menu";
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -39,6 +39,39 @@ h1, h2, h3, h4, .special-text {
 
 /* Navigation */
 
+.top-menu {
+    overflow: hidden;
+    background-color: saddlebrown;
+    border-top: 1.5px solid aliceblue;
+    border-bottom: 1.5px dashed aliceblue;
+    line-height: 50px;
+    text-align: center;
+}
+  
+.top-menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 150%;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-family: Fjalla One, sans-serif;
+    letter-spacing: 1px;
+}
+
+.top-menu a:hover {
+    color: burlywood;
+}
+
+.active {
+    border-bottom: 2px solid aliceblue;
+}
+
+.menu-icon {
+    color: black;
+    display: none;
+}
+
+/*
 #menu {
     background-color: saddlebrown;
     height: 60px;
@@ -59,7 +92,7 @@ h1, h2, h3, h4, .special-text {
 #menu > a:hover {
 	color: burlywood;
 }
-
+*/
 .active {
     border-bottom: 2px solid aliceblue;
 }
@@ -519,5 +552,42 @@ textarea {
 
     #map-container{
         margin: 50px 5% 0 5%;
+    }
+}
+
+/* For small screen sizes below 768px width */
+@media screen and (max-width: 768px) {
+    .top-menu a {
+        float: left;
+        display: block;
+        font-size: 130%;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .top-menu a:hover {
+        background-color: burlywood;
+        color: black;
+    }
+
+    .active {
+        border: none;
+    }
+
+    .top-menu a:not(:first-child) {display: none;}
+    .top-menu a.menu-icon {
+        float: right;
+        display: block;
+    }
+    .top-menu.responsive {position: relative;}
+    .top-menu.responsive .menu-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .top-menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }
