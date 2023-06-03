@@ -71,32 +71,6 @@ h1, h2, h3, h4, .special-text {
     display: none;
 }
 
-/*
-#menu {
-    background-color: saddlebrown;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    border-bottom: 1.5px dashed aliceblue;
-    border-top: 1.5px solid aliceblue;
-}
-
-#menu > a {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 150%;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-#menu > a:hover {
-	color: burlywood;
-}
-*/
-.active {
-    border-bottom: 2px solid aliceblue;
-}
-
 /* Main content */
 
 .top-margin {
@@ -104,7 +78,14 @@ h1, h2, h3, h4, .special-text {
 }
 
 .wrapper {
-    height: 450px;
+    height: 460px;
+}
+
+.divider {
+    height: 100%;
+    width: 49%;
+    margin: 0 0.5%;
+    border: 1.5px dashed aliceblue;
 }
 
 .content-bg {
@@ -112,22 +93,32 @@ h1, h2, h3, h4, .special-text {
     border-radius: 50px;
 }
 
-.container-left {
-    height: 100%;
-    width: 50%;
+.float-left {
     float: left;
-} 
+}
 
-.container-right {
-    height: 100%;
-    width: 50%;
+.float-right {
     float: right;
 }
 
-.divider {
-    width: 49%;
-    margin: 0 0.5%;
-    border: 1.5px dashed aliceblue;
+.title-container {
+    height: 70px;
+    width: 100%;
+}
+
+.image-container {
+    height: 300px;
+    width: 50%;
+} 
+
+.text-container {
+    height: 300px;
+    width: 50%;
+}
+
+.buttons-container {
+    height: 70px;
+    width: 100%;
 }
 
 /* Main content images */
@@ -139,9 +130,9 @@ h1, h2, h3, h4, .special-text {
 }
 
 .image {
-    width: 80%;
-    height: 80%;
-    border-radius: 25%;
+    width: 85%;
+    height: 95%;
+    border-radius: 15%;
     border: 1px solid aliceblue;
 }
 
@@ -171,14 +162,15 @@ h1, h2, h3, h4, .special-text {
 
 /* Main content text */
 
-.text-container {
-    position: relative;
-}
-
 .title {
-    margin: 30px 0 25px 0;
+    padding-top: 25px;
     text-align: center;
     font-size: 175%;
+    margin-bottom: 20px;
+}
+
+.text-container ul {
+    padding-top: 30px;
 }
 
 .text-container li {
@@ -189,16 +181,9 @@ h1, h2, h3, h4, .special-text {
 
 /* Buttons */
 
-.buttons-container {
-    position: absolute;
-    bottom: 8%;
-    right: 7%;
-}
-
 .button {
     border-radius: 50px;
     width: 150px;
-    height: 40px;
 }
 
 .button-left {
@@ -236,9 +221,15 @@ h1, h2, h3, h4, .special-text {
 
 footer {
     height: 100px;
+    width: 100%;
     background-color: saddlebrown;
     margin-top: 50px;
     border-top: 1.5px dashed aliceblue;
+}
+
+#copyright-container, #socials-container {
+    width: 50%;
+    height: 100%;
 }
 
 footer h3 {
@@ -367,6 +358,10 @@ fieldset {
     margin: 0 5%;
 }
 
+#form-container, #contact-details {
+    height: 100%;
+}
+
 /* Contact page form */
 
 .field-properties {
@@ -462,37 +457,28 @@ textarea {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .wrapper {
-        height: 950px;
+        height: 970px;
         margin-left: 5%;
         margin-right: 5%;
     }
 
     .container-top {
-        height: 450px;
+        height: 460px;
         width: 100%;
         margin: 0 0 50px 0;
     } 
     
     .container-bottom {
-        height: 450px;
+        height: 460px;
         width: 100%;
         margin: 0 0 0 0;
     }
 
     .image {
         width: 80%;
-        height: 80%;
-        border-radius: 20%;
+        height: 100%;
+        border-radius: 15%;
         border: 1px solid aliceblue;
-    }
-
-    .buttons-container {
-        bottom: 10%;
-        right: 15%;
-    }
-
-    .button-right {
-        margin-left: 40px;
     }
 
     #socials > li {
@@ -506,11 +492,6 @@ textarea {
 
 /* For medium screen sizes from 992px wide and down */
 @media screen and (max-width: 992px) {
-    .buttons-container {
-        bottom: 10%;
-        right: 13%;
-    }
-
     footer {
         height: 200px;
         position: relative;
@@ -555,7 +536,7 @@ textarea {
     }
 }
 
-/* For small screen sizes below 768px width */
+/* For small screen sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
     .top-menu a {
         float: left;
