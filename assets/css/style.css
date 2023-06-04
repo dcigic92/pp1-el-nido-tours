@@ -315,16 +315,20 @@ footer h3 {
 }
 
 fieldset {
+    padding-left: 20px;
+    padding-right: 20px;
 	margin-bottom: 20px;
+    border: 2.5px dashed saddlebrown;
+    border-radius: 50px;
 }
 
 .label-left {
-    width: 15%;
     float: left;
+    width: 90px;
 }
 
 .field-right {
-    width: 85%;
+    width: 80%;
     float: right;
 }
 
@@ -517,6 +521,12 @@ textarea {
         position: absolute;
         bottom: 0;
     }
+    
+    #booking-container form {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
     #booking-container {
         margin-left: 10%;
@@ -639,6 +649,17 @@ textarea {
 
     .top-margin {
         margin-top: 30px;
+    }
+
+    #booking-container form {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #booking-container {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 
     #contact-wrapper {
