@@ -479,6 +479,9 @@ textarea {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
+    /* Main content */
+
     .wrapper {
         height: 950px;
         margin-left: 10%;
@@ -520,6 +523,8 @@ textarea {
         border: 1px solid aliceblue;
     }
 
+    /* Footer */
+
     #socials > li {
         margin-left: 30px;
     }
@@ -531,6 +536,9 @@ textarea {
 
 /* For medium screen sizes from 992px wide and down */
 @media screen and (max-width: 992px) {
+
+    /* Footer */
+
     footer {
         height: 140px;
         position: relative;
@@ -548,6 +556,8 @@ textarea {
         position: absolute;
         bottom: 0;
     }
+
+    /* Booking page */
     
     #booking-container form {
         width: 80%;
@@ -559,6 +569,8 @@ textarea {
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    /* Contact page */
 
     #contact-wrapper {
         height: 1090px;
@@ -586,6 +598,9 @@ textarea {
 
 /* For small screen sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
+
+    /* Header */
+
     #page-header {
         height: 250px;
     }
@@ -594,6 +609,8 @@ textarea {
         text-align: center;
         padding: 20px 0;
     }
+
+    /* Navigation */
 
     .top-menu a {
         float: left;
@@ -629,10 +646,16 @@ textarea {
         text-align: left;
     }
 
+    /* Main content */
+
     .wrapper {
         height: 1140px;
         margin-left: 2.5%;
         margin-right: 2.5%;
+    }
+
+    .top-margin {
+        margin-top: 30px;
     }
 
     .container-top {
@@ -682,13 +705,13 @@ textarea {
         height: 70px;
     }
 
+    /* Footer */
+
     footer {
         height: 120px;
     }
 
-    .top-margin {
-        margin-top: 30px;
-    }
+    /* Booking page */
 
     #booking-container form {
         width: 90%;
@@ -700,6 +723,8 @@ textarea {
         margin-left: 2.5%;
         margin-right: 2.5%;
     }
+
+    /* Contact page */
 
     #contact-wrapper {
         height: 1080px;
