@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@700&display=swap');
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,7 @@
 
 body {
     background-color: aliceblue;
-    font-size: x-large;
+    font-size: 2.0rem;
     font-family: Lato, sans-serif;
 }
 
@@ -19,6 +23,22 @@ h1, h2, h3, h4, .special-text {
     text-transform: uppercase;
     font-family: Fjalla One, sans-serif;
     letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2.2rem;
 }
 
 /* Header */
@@ -33,7 +53,6 @@ h1, h2, h3, h4, .special-text {
 
 #page-header > h1 {
     color: aliceblue;
-    font-size: 200%;
     padding: 20px 0 0 20px;
 }
 
@@ -51,7 +70,7 @@ h1, h2, h3, h4, .special-text {
 .top-menu a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 150%;
+    font-size: 3rem;
     margin: 0 25px;
     text-transform: uppercase;
     font-family: Fjalla One, sans-serif;
@@ -78,7 +97,7 @@ h1, h2, h3, h4, .special-text {
 }
 
 .wrapper {
-    height: 460px;
+    height: 445px;
 }
 
 .divider {
@@ -102,7 +121,7 @@ h1, h2, h3, h4, .special-text {
 }
 
 .title-container {
-    height: 70px;
+    height: 55px;
     width: 100%;
 }
 
@@ -165,7 +184,6 @@ h1, h2, h3, h4, .special-text {
 .title {
     padding-top: 25px;
     text-align: center;
-    font-size: 175%;
     margin-bottom: 20px;
 }
 
@@ -220,7 +238,7 @@ h1, h2, h3, h4, .special-text {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: saddlebrown;
     border-top: 1.5px dashed aliceblue;
@@ -243,7 +261,7 @@ footer h3 {
 
 #socials i {
     color: aliceblue;
-    font-size: 150%;
+    font-size: 3rem;
 }
 
 #socials i:hover {
@@ -274,8 +292,9 @@ footer h3 {
 }
 
 .icons {
+    width: 25px;
     margin-right: 20px;
-    font-size: 150%;
+    font-size: 2.5rem;
 }
 
 .bottom-margin {
@@ -372,7 +391,7 @@ fieldset {
     margin: 8px 0;
     border: 1.5px dashed burlywood;
     border-radius: 50px;
-    font-size: 80%;
+    font-size: 1.6rem;
     background-color: aliceblue;
 }
 
@@ -387,7 +406,7 @@ input[type=submit] {
     border-radius: 50px;
     border: 1.5px dashed burlywood;
     background-color: saddlebrown;
-    font-size: 80%;
+    font-size: 1.8rem;
     color: aliceblue;
 }
 
@@ -416,7 +435,7 @@ textarea {
 #message-icons i {
     color: saddlebrown;
     margin-left: 40px;
-    font-size: 150%;
+    font-size: 3rem;
 }
 
 #message-icons i:hover {
@@ -461,25 +480,33 @@ textarea {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .wrapper {
-        height: 980px;
-        margin-left: 5%;
-        margin-right: 5%;
+        height: 950px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .container-top {
-        height: 470px;
+        height: 455px;
         width: 100%;
         margin: 0 0 40px 0;
     } 
     
     .container-bottom {
-        height: 470px;
+        height: 455px;
         width: 100%;
         margin: 0 0 0 0;
     }
 
     .top-margin {
         margin-top: 40px;
+    }
+
+    .image-container {
+        width: 60%;
+    } 
+    
+    .text-container {
+        width: 40%;
     }
 
     .buttons-container {
@@ -505,7 +532,7 @@ textarea {
 /* For medium screen sizes from 992px wide and down */
 @media screen and (max-width: 992px) {
     footer {
-        height: 180px;
+        height: 140px;
         position: relative;
     }
 
@@ -603,21 +630,29 @@ textarea {
     }
 
     .wrapper {
-        height: 1250px;
+        height: 1140px;
         margin-left: 2.5%;
         margin-right: 2.5%;
     }
 
     .container-top {
-        height: 610px;
+        height: 555px;
         width: 100%;
         margin: 0 0 30px 0;
     } 
 
     .container-bottom {
-        height: 610px;
+        height: 555px;
         width: 100%;
         margin: 0 0 0 0;
+    }
+
+    .title {
+        padding-top: 20px;
+    }
+
+    .title-container {
+        height: 50px;
     }
 
     .image-container {
@@ -633,7 +668,7 @@ textarea {
     }
 
     .text-container {
-        height: 190px;
+        height: 150px;
         width: 100%;
     }
 
@@ -643,8 +678,12 @@ textarea {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .buttons-container {
+        height: 70px;
+    }
+
     footer {
-        height: 160px;
+        height: 120px;
     }
 
     .top-margin {
