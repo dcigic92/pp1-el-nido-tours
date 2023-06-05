@@ -369,6 +369,10 @@ fieldset {
     margin-right: 20px;
 }
 
+input[type=date] {
+    background-color: white;
+}
+
 .radio input {
     margin-left: 20px;
     margin-top: 15px;
