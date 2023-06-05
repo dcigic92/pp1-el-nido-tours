@@ -200,6 +200,7 @@ h4 {
 /* Buttons */
 
 .button {
+    height: 30px;
     border-radius: 50px;
     width: 150px;
 }
@@ -351,6 +352,10 @@ fieldset {
     float: right;
 }
 
+.radio > span {
+    white-space: nowrap;
+}
+
 #number-of-tickets label {
     margin-right: 20px;
 }
@@ -364,7 +369,7 @@ fieldset {
     margin-right: 20px;
 }
 
-.radio-margin input {
+.radio input {
     margin-left: 20px;
     margin-top: 15px;
 }
@@ -372,16 +377,12 @@ fieldset {
 /* Contact page */
 
 #contact-wrapper {
-    height: 550px;
+    height: 500px;
 }
 
 .content-width {
     width: 90%;
     margin: 0 5%;
-}
-
-#form-container, #contact-details {
-    height: 100%;
 }
 
 /* Contact page form */
@@ -442,7 +443,7 @@ textarea {
     transform: scale(1.25);
 }
 
-/*  Map  */
+/*  Contact map  */
 
 #map-container {
     width: 50%;
@@ -466,9 +467,8 @@ textarea {
     border: 1.5px dashed aliceblue;
 }
 
-.confirmation > h3 {
-    text-align: center;
-    margin: 30px 0 20px 0;
+.confirmation-button {
+    margin-top: 20px;
 }
 
 .confirmation > p {
@@ -528,10 +528,6 @@ textarea {
     #socials > li {
         margin-left: 30px;
     }
-
-    #map-container iframe {
-        width: 90%;
-    }
 }
 
 /* For medium screen sizes from 992px wide and down */
@@ -573,26 +569,33 @@ textarea {
     /* Contact page */
 
     #contact-wrapper {
-        height: 1090px;
+        height: 940px;
         margin-left: 5%;
         margin-right: 5%;
     }
 
     #form-container {
         width: 100%;
-        height: 550px;
+        height: 500px;
         margin-bottom: 40px;
     }
 
     #contact-details {
         width: 100%;
-        height: 500px;
+        height: 400px;
     }
 
     #map-container{
         width: auto;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    /* Confirmation pages */
+
+    .confirmation {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
@@ -608,6 +611,16 @@ textarea {
     #page-header > h1 {
         text-align: center;
         padding: 20px 0;
+    }
+
+    /* Headings */
+
+    h3 {
+        font-size: 2.2rem;
+    }
+    
+    h4 {
+        font-size: 2rem;
     }
 
     /* Navigation */
@@ -711,6 +724,10 @@ textarea {
         height: 120px;
     }
 
+    #socials i {
+        font-size: 2.5rem;
+    }
+
     /* Booking page */
 
     #booking-container form {
@@ -727,10 +744,190 @@ textarea {
     /* Contact page */
 
     #contact-wrapper {
-        height: 1080px;
+        height: 930px;
     }
 
     #form-container {
         margin-bottom: 30px;
+    }
+
+    .icons {
+        font-size: 2.2rem;
+        width: 20px;
+    }
+
+    /* Confirmation pages */
+
+    .confirmation {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* For small screen sizes from 480px wide and down */
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 1.8rem;
+    }
+
+    /* Headings */
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    /* header */
+
+    #page-header {
+        height: 200px;
+    }
+
+    /* Main content */
+
+    .wrapper {
+        height: 1310px;
+    }
+
+    .container-top {
+        height: 640px;
+        width: 100%;
+        margin: 0 0 30px 0;
+    } 
+
+    .container-bottom {
+        height: 640px;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    .title-container {
+        height: 45px;
+    }
+
+    .text-container {
+        height: 225px;
+        width: 100%;
+        padding: 5px 10%;
+    }
+
+    .text-container ul {
+        padding: 8px;
+        display: block;
+    }
+
+    .buttons-container {
+        height: 80px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .button-top {
+        position: absolute;
+        top: 10px;
+        margin: 0;
+    }
+
+    .button-bottom {
+        position: absolute;
+        bottom: 0px;
+        margin: 0;
+    }
+
+    /* Footer */
+
+    #socials > li {
+        margin-left: 15px;
+    }
+
+    /* About button */
+
+    #about-button {
+        height: 80px;
+        position: relative;
+        background-color: aqua;
+    }
+
+    /* Booking page */
+
+    #booking-container form {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    #booking-container input {
+        font-size: 1.2rem;
+    }
+
+    .label-left {
+        float: left;
+        width: 70px;
+    }
+
+    fieldset {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Contact page */
+
+    #contact-wrapper {
+        height: 980px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    /* Contact form */
+
+    .field-properties {
+        font-size: 1.4rem;
+    }
+
+    /* Contact details */
+
+    #contact-details {
+        height: 450px;
+    }
+
+    #message-icons {
+        height: 80px;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    #message-icons i {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* Contact map */
+
+    #map-container {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    #map-container iframe {
+        height: 350px;
+    }
+
+    /* Confirmation pages */
+
+    .confirmation {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
