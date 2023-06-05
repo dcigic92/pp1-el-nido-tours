@@ -497,7 +497,7 @@ textarea {
     .container-bottom {
         height: 455px;
         width: 100%;
-        margin: 0 0 0 0;
+        margin: 0;
     }
 
     .top-margin {
@@ -871,7 +871,7 @@ textarea {
         margin-right: 2.5%;
     }
 
-    #booking-container input {
+    #booking-container input[type=tel] {
         font-size: 1.2rem;
     }
 
@@ -883,17 +883,26 @@ textarea {
     fieldset {
         padding-left: 10px;
         padding-right: 10px;
+        border: 1.5px dashed saddlebrown;
+    }
+
+    input[type=submit] {
+        font-size: 1.6rem;
     }
 
     /* Contact page */
 
     #contact-wrapper {
-        height: 980px;
+        height: 970px;
         margin-left: 2.5%;
         margin-right: 2.5%;
     }
 
     /* Contact form */
+
+    #form-container {
+        height: 490px;
+    }
 
     .field-properties {
         font-size: 1.4rem;
