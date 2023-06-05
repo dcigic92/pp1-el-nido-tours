@@ -628,18 +628,22 @@ textarea {
     .top-menu a {
         float: left;
         display: block;
-        font-size: 130%;
+        font-size: 2.5rem;
         margin: 0;
         padding: 0 20px;
+    }
+
+    .active {
+        border: none;
+    }
+
+    .menu-border {
+        border-top: 1px dashed aliceblue;
     }
 
     .top-menu a:hover {
         background-color: burlywood;
         color: black;
-    }
-
-    .active {
-        border: none;
     }
 
     .top-menu a:not(:first-child) {display: none;}
