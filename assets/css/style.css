@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: aliceblue;
+    background-color: white;
     font-size: 2.0rem;
     font-family: Lato, sans-serif;
 }
@@ -52,7 +52,7 @@ h4 {
 }
 
 #page-header > h1 {
-    color: aliceblue;
+    color: white;
     padding: 20px 0 0 20px;
 }
 
@@ -61,15 +61,15 @@ h4 {
 .top-menu {
     overflow: hidden;
     background-color: saddlebrown;
-    border-top: 1.5px solid aliceblue;
-    border-bottom: 1.5px dashed aliceblue;
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px dashed white;
     line-height: 50px;
     text-align: center;
 }
   
 .top-menu a {
     text-decoration: none;
-    color: aliceblue;
+    color: white;
     font-size: 3rem;
     margin: 0 25px;
     text-transform: uppercase;
@@ -82,7 +82,7 @@ h4 {
 }
 
 .active {
-    border-bottom: 2px solid aliceblue;
+    border-bottom: 2px solid white;
 }
 
 .menu-icon {
@@ -104,7 +104,7 @@ h4 {
     height: 100%;
     width: 49%;
     margin: 0 0.5%;
-    border: 1.5px dashed aliceblue;
+    border: 1.5px dashed white;
 }
 
 .content-bg {
@@ -152,7 +152,7 @@ h4 {
     width: 85%;
     height: 95%;
     border-radius: 15%;
-    border: 1px solid aliceblue;
+    border: 1px solid white;
 }
 
 #image-tour-a {
@@ -206,7 +206,7 @@ h4 {
 }
 
 .button-left {
-    background-color: aliceblue;
+    background-color: white;
     border: 1px solid saddlebrown;
 }
 
@@ -220,7 +220,7 @@ h4 {
 
 .button-right {
     background-color: saddlebrown;
-    border: 1px solid aliceblue;
+    border: 1px solid white;
     margin-left: 25px;
 }
 
@@ -229,7 +229,7 @@ h4 {
 }
 
 .button-right > a {
-    color: aliceblue;
+    color: white;
 }
 
 .button > a {
@@ -242,7 +242,7 @@ footer {
     height: 80px;
     width: 100%;
     background-color: saddlebrown;
-    border-top: 1.5px dashed aliceblue;
+    border-top: 1.5px dashed white;
 }
 
 #copyright-container, #socials-container {
@@ -251,7 +251,7 @@ footer {
 }
 
 footer h3 {
-    color: aliceblue;
+    color: white;
 }
 
 #socials > li {
@@ -261,7 +261,7 @@ footer h3 {
 }
 
 #socials i {
-    color: aliceblue;
+    color: white;
     font-size: 3rem;
 }
 
@@ -275,7 +275,7 @@ footer h3 {
 #about-container {
     margin-left: 5%;
     margin-right: 5%;
-    border: 1.5px dashed aliceblue;
+    border: 1.5px dashed white;
 }
 
 #about-container ul {
@@ -311,7 +311,7 @@ footer h3 {
 #booking-container {
     margin-left: 15%;
     margin-right: 15%;
-    border: 1.5px dashed aliceblue;
+    border: 1.5px dashed white;
 }
 
 #booking-container form {
@@ -393,7 +393,7 @@ fieldset {
     border: 1.5px dashed burlywood;
     border-radius: 50px;
     font-size: 1.6rem;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 input {
@@ -408,11 +408,11 @@ input[type=submit] {
     border: 1.5px dashed burlywood;
     background-color: saddlebrown;
     font-size: 1.8rem;
-    color: aliceblue;
+    color: white;
 }
 
 input[type=submit]:hover {
-    background-color: aliceblue;
+    background-color: white;
     color: black;
 }
 
@@ -449,12 +449,12 @@ textarea {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    border: 1.5px dashed aliceblue;
+    border: 1.5px dashed white;
 }
 
 #map-container iframe {
     border-radius: 50px;
-    border: 1px solid aliceblue;
+    border: 1px solid white;
     margin-bottom: 50px;
     height: 500px;
 }
@@ -464,7 +464,7 @@ textarea {
 .confirmation {
     margin-left: 15%;
     margin-right: 15%;
-    border: 1.5px dashed aliceblue;
+    border: 1.5px dashed white;
 }
 
 .confirmation-button {
@@ -520,7 +520,7 @@ textarea {
         width: 80%;
         height: 100%;
         border-radius: 50px;
-        border: 1px solid aliceblue;
+        border: 1px solid white;
     }
 
     /* Footer */
@@ -543,7 +543,7 @@ textarea {
     #socials-container {
         height: 50%;
         width: 100%;
-        border-bottom: 1.5px dashed aliceblue;
+        border-bottom: 1.5px dashed white;
     } 
     
     #copyright-container {
@@ -638,7 +638,7 @@ textarea {
     }
 
     .menu-border {
-        border-top: 1px dashed aliceblue;
+        border-top: 1px dashed white;
     }
 
     .top-menu a:hover {
@@ -704,7 +704,7 @@ textarea {
         width: 80%;
         height: 100%;
         border-radius: 50px;
-        border: 1px solid aliceblue;
+        border: 1px solid white;
     }
 
     .text-container {
