@@ -1,8 +1,6 @@
 # El Nido Tours
 
-## A website created for a fictional tour agency inspired by real tours in El Nido, Philippines.
-
-***
+### A website created for a fictional tour agency inspired by real tours in El Nido, Philippines.
 
 ![am I responsive screenshot](assets/images/responsive-screenshot.jpg)
 

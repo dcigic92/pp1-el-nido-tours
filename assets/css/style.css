@@ -210,11 +210,7 @@ h4 {
     border: 1px solid saddlebrown;
 }
 
-.button-left:hover {
-    transform: scale(1.15);
-}
-
-.button-left > a {
+.button-left {
     color: saddlebrown;
 }
 
@@ -224,15 +220,15 @@ h4 {
     margin-left: 25px;
 }
 
-.button-right:hover {
-    transform: scale(1.15);
-}
-
-.button-right > a {
+.button-right {
     color: white;
 }
 
-.button > a {
+.button:hover {
+    transform: scale(1.08);
+}
+
+.button {
     text-decoration: none;
 }
 
@@ -266,7 +262,7 @@ footer h3 {
 }
 
 #socials i:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     text-shadow: 3px 3px black;
 }
 
@@ -376,6 +372,7 @@ input[type=date] {
 .radio input {
     margin-left: 20px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 /* Contact page */
@@ -413,6 +410,7 @@ input[type=submit] {
     background-color: saddlebrown;
     font-size: 1.8rem;
     color: white;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
@@ -627,7 +625,7 @@ textarea {
         font-size: 2rem;
     }
 
-    /* Navigation */
+    /* Navigation - adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
 
     .top-menu a {
         float: left;
@@ -919,8 +917,8 @@ textarea {
     }
 
     #message-icons {
-        height: 80px;
-        margin-top: 30px;
+        height: 85px;
+        margin-top: 20px;
         position: relative;
     }
 
