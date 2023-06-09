@@ -8,6 +8,29 @@
 
 ***
 
+## Technologies Used
+- HTML
+- CSS
+- Javascript
+- Git
+- Github
+- Visual Studio Code
+- W3Schools
+- Stack Overflow
+- Chrome DevTools
+- Google fonts
+- Google maps
+- Font Awesome
+- Favicon.io
+
+## Deployment
+- To deploy the website I used GitHub pages and followed these steps:
+    1. Open your repository
+    2. Click on settings in the navigation menu
+    3. Under code and automation choose pages 
+    4. Select the main branch and save
+    5. Refresh a few times and the link to your website should appear shortly
+
 ## Credits
 
 ### Images 
@@ -30,10 +53,14 @@
     - [Tour C](https://www.getyourguide.com/hidden-beach-l104676/el-nido-island-hopping-tour-c-hidden-beaches-shrine-t219591/)
     - [Tour D](https://www.getyourguide.com/el-nido-l974/el-nido-hidden-beaches-and-lagoons-boat-hopping-tour-d-t229222/)
 
+- All icons for the footer, about page and contact page were taken from [Font Awesome](https://fontawesome.com/).
+
 ### Code
 
-- HTML and CSS code for the menu for small screen sizes was copied and modified from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav).
+- HTML, CSS and JavaScript code for the menu for small screen sizes was copied and modified from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav).
 - How to display an unordered list in two columns found [here](https://stackoverflow.com/questions/14745297/how-to-display-an-unordered-list-in-two-columns).
+- Snook’s variant of using rem for font sizing found [here](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/).
 
 ## Acknowledgements
+
 I would like to thank my mentor Akshat Garg for his feedback and good advice.
