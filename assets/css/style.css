@@ -44,7 +44,7 @@ h4 {
 /* Header */
 
 #page-header {
-    background: url(../images/header-image.jpg);
+    background: url(../images/header-image.webp);
     height: 340px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,25 +156,25 @@ h4 {
 }
 
 #image-tour-a {
-    background: url(../images/kayak.jpg);
+    background: url(../images/tour-a.webp);
     background-position-y: 70%;
     background-position-x: 20%;
 }
 
 #image-tour-b {
-    background: url(../images/coconut.jpg);
+    background: url(../images/tour-b.webp);
     background-position-y: 65%;
     background-position-x: 25%;
 }
 
 #image-tour-c {
-    background: url(../images/beach.jpg);
+    background: url(../images/tour-c.webp);
     background-position-y: 70%;
     background-position-x: 80%;
 }
 
 #image-tour-d {
-    background: url(../images/beach2.jpg);
+    background: url(../images/tour-d.webp);
     background-position-y: 70%;
     background-position-x: 35%;
 }
