@@ -25,10 +25,10 @@
 
 ## Deployment
 - To deploy the website I used GitHub pages and followed these steps:
-    1. Open your repository
-    2. Click on settings in the navigation menu
-    3. Under code and automation choose pages 
-    4. Select the main branch and save
+    1. Open your *repository*
+    2. Click on *settings* in the *navigation menu*
+    3. Under *code and automation* choose *pages* 
+    4. Select the *main branch* and *save*
     5. Refresh a few times and the link to your website should appear shortly
 
 ## Credits
@@ -63,4 +63,4 @@
 
 ## Acknowledgements
 
-I would like to thank my mentor Akshat Garg for his feedback and good advice.
+I would like to thank my mentor **Akshat Garg** for his feedback and valuable advice.
