@@ -82,7 +82,9 @@ h3 {
 }
 
 .menu-icon {
-    color: black;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
     display: none;
 }
 
@@ -635,16 +637,19 @@ textarea {
     }
 
     .top-menu a:not(:first-child) {display: none;}
-    .top-menu a.menu-icon {
+    .menu-icon {
+        padding: 0 20px;
         float: right;
         display: block;
     }
+
     .top-menu.responsive {position: relative;}
     .top-menu.responsive .menu-icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .top-menu.responsive a {
         float: none;
         display: block;
