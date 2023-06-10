@@ -22,6 +22,56 @@
 - Google maps
 - Font Awesome
 - Favicon.io
+- Convertio.co
+
+## Testing
+
+### CSS Validation
+CSS code was validated with the W3C Jigsaw CSS Validation Service and no errors found.
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+### HTML Validation
+HTML code of each page was validated with the W3C Markup Validation Service and no errors found.
+- [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcigic92.github.io%2Fpp1-el-nido-tours%2Findex.html)
+- [about.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcigic92.github.io%2Fpp1-el-nido-tours%2Fabout.html)
+- [booking.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcigic92.github.io%2Fpp1-el-nido-tours%2Fbooking.html)
+- [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcigic92.github.io%2Fpp1-el-nido-tours%2Fcontact.html)
+- [booking-confirmation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcigic92.github.io%2Fpp1-el-nido-tours%2Fbooking-confirmation.html)
+- [contact-confirmation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdcigic92.github.io%2Fpp1-el-nido-tours%2Fcontact-confirmation.html)
+
+### Google Lighthouse
+
+- index.html
+
+![Google Lighthouse index page](assets/images/readme/lighthouse-index.jpg)
+
+- about.html
+
+![Google Lighthouse about page](assets/images/readme/lighthouse-about.jpg)
+
+- booking.html
+
+![Google Lighthouse home page](assets/images/readme/lighthouse-booking.jpg)
+
+- contact.html
+
+![Google Lighthouse home page](assets/images/readme/lighthouse-contact.jpg)
+
+- booking-confirmation.html
+
+![Google Lighthouse home page](assets/images/readme/lighthouse-booking-confirmation.jpg)
+
+- contact-confirmation.html
+
+![Google Lighthouse home page](assets/images/readme/lighthouse-contact-confirmation.jpg)
+
+
 
 ## Deployment
 - To deploy the website I used GitHub pages and followed these steps:
