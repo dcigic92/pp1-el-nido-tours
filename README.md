@@ -1,12 +1,27 @@
 # El Nido Tours
 
-### A website created for a fictional tour agency inspired by real tours in El Nido, Philippines.
+**A website created for a fictional tour agency inspired by real tours in El Nido, Philippines.**
 
 ![am I responsive screenshot](assets/images/readme/responsive-screenshot.jpg)
 
-[Live website](https://dcigic92.github.io/pp1-el-nido-tours/index.html) created by Dino Cigic.
+***[Live website](https://dcigic92.github.io/pp1-el-nido-tours/index.html)*** created by **Dino Cigic**.
 
 ***
+
+## Contents
+
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+    - [Manual testing](#manual-testing)
+    - [CSS Validation](#css-validation)
+    - [HTML Validation](#html-validation)
+    - [Google Lighthouse](#google-lighthouse)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    - [Images](#images)
+    - [Content](#images)
+    - [Code](#code)
+- [Acknowledgements](#acknowledgements)
 
 ## Technologies Used
 - HTML
@@ -25,6 +40,20 @@
 - Convertio.co
 
 ## Testing
+
+### Manual testing
+
+- User testing
+    - Tested by 3 persons to get some general feedback.
+
+- Devices
+    - Tested on 5 different devices.
+
+- Browsers
+    - Tested in Google Chrome, Firefox and Microsoft Edge.
+
+- Responsiveness
+    - Tested on all available devices in Chrome DevTools.
 
 ### CSS Validation
 CSS code was validated with the W3C Jigsaw CSS Validation Service and no errors found.
@@ -71,15 +100,13 @@ HTML code of each page was validated with the W3C Markup Validation Service and 
 
 ![Google Lighthouse home page](assets/images/readme/lighthouse-contact-confirmation.jpg)
 
-
-
 ## Deployment
 - To deploy the website I used GitHub pages and followed these steps:
-    1. Open your *repository*
-    2. Click on *settings* in the *navigation menu*
-    3. Under *code and automation* choose *pages* 
-    4. Select the *main branch* and *save*
-    5. Refresh a few times and the link to your website should appear shortly
+    1. Open your *repository*.
+    2. Click on *settings* in the *navigation menu*.
+    3. Under *code and automation* choose *pages*.
+    4. Select the *main branch* and *save*.
+    5. Refresh a few times and the link to your website should appear shortly.
 
 ## Credits
 
@@ -107,7 +134,7 @@ HTML code of each page was validated with the W3C Markup Validation Service and 
 
 ### Code
 
-- HTML, CSS and JavaScript code for the menu for small screen sizes was copied and modified from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav).
+- HTML, CSS and JavaScript code for the menu for small screen sizes was copied from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav) and modified.
 - How to display an unordered list in two columns found [here](https://stackoverflow.com/questions/14745297/how-to-display-an-unordered-list-in-two-columns).
 - Snook’s variant of using rem for font sizing found [here](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/).
 
