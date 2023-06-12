@@ -23,6 +23,8 @@
     - [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
+***
+
 ## Technologies Used
 - HTML
 - CSS
@@ -78,27 +80,27 @@ HTML code of each page was validated with the W3C Markup Validation Service and 
 
 - index.html
 
-![Google Lighthouse index page](assets/images/readme/lighthouse-index.jpg)
+![Google Lighthouse index page](assets/images/readme/index-lighthouse.jpg)
 
 - about.html
 
-![Google Lighthouse about page](assets/images/readme/lighthouse-about.jpg)
+![Google Lighthouse about page](assets/images/readme/about-lighthouse.jpg)
 
 - booking.html
 
-![Google Lighthouse home page](assets/images/readme/lighthouse-booking.jpg)
+![Google Lighthouse home page](assets/images/readme/booking-lighthouse.jpg)
 
 - contact.html
 
-![Google Lighthouse home page](assets/images/readme/lighthouse-contact.jpg)
+![Google Lighthouse home page](assets/images/readme/contact-lighthouse.jpg)
 
 - booking-confirmation.html
 
-![Google Lighthouse home page](assets/images/readme/lighthouse-booking-confirmation.jpg)
+![Google Lighthouse home page](assets/images/readme/booking-confirmation-lighthouse.jpg)
 
 - contact-confirmation.html
 
-![Google Lighthouse home page](assets/images/readme/lighthouse-contact-confirmation.jpg)
+![Google Lighthouse home page](assets/images/readme/contact-confirmation-lighthouse.jpg)
 
 ## Deployment
 - To deploy the website I used GitHub pages and followed these steps:
