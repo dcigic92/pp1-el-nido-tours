@@ -41,14 +41,14 @@
 ## Design
 
 ### Colours
-Black, white, burlywood and saddlebrown are only colours used in this project.
+Black, white, burlywood and saddlebrown are only colours used in this project.  
 ![Palette](assets/images/readme/palette.png)
 
 ### Typography
 In this project I used google fonts. *Fjala one* font used for headings and menu, *Lato* font used for the body text.
 
 ### Site Structure
-The website consists of 4 main pages and 2 confirmation pages that are intended only for feedback to the user after submitting booking or contact form.
+The website contains 4 main pages and 2 confirmation pages that are used only as a feedback to the user after submitting booking or contact form.
 
 ## Technologies Used
 - HTML
@@ -66,6 +66,86 @@ The website consists of 4 main pages and 2 confirmation pages that are intended 
 - Favicon.io
 - Convertio.co
 - Coolors.co
+
+## Features
+
+### Header 
+- consists of main heading/logo and background photo taken on one of our tours.
+- header is on the top of every page.
+
+![Header](assets/images/readme/header.jpg)
+
+### Navigation
+- includes links to *Home*, *About*, *Booking* and *Contact* pages.
+- navigation is fully responsive and for smaller screen sizes it turns into a "hamburger menu".
+
+Large screens navigation
+![Navigation for large screens](assets/images/readme/navigation.jpg)
+
+Smaller screens navigation  
+![Navigation for smaller screens](assets/images/readme/hamburger-menu.jpg)
+
+### Main content
+- consists of 4 sections (different tour options).
+- every section has 2 buttons one with link to the about page and second with link to the booking page.
+- it's fully responsive and changing structure few times depending on screen size.
+
+Large screens main content
+![Main content on large screens](assets/images/readme/main-content-large.jpg)
+
+Medium screens main content  
+![Main content on medium screens](assets/images/readme/main-content-medium.jpg)
+
+Small screens main content  
+![Main content on small screens](assets/images/readme/main-content-small.jpg)
+
+Very small screens main content  
+![Main content on very small screens](assets/images/readme/main-content-very-small.jpg)
+
+### Footer
+- consists of copyright text and social icons.
+- its responsive and for smaller screen sizes copyright text goes above social icons.
+
+Large screens footer
+![Footer for larger screens](assets/images/readme/Footer.jpg)
+
+Smaller screens footer  
+![Footer for smaller sreens](assets/images/readme/small-footer.jpg)
+
+### About page content
+- all important info about our tours
+- button with link to the booking page
+
+![About](assets/images/readme/about.jpg)
+
+### Booking page content
+- booking form to book your tour.
+
+![Booking form](assets/images/readme/booking.jpg)
+
+### Contact page content
+- consists of 3 sections: 
+    - *Contact us* is a simple form for the user to send us a message.
+    - *Contact info* has all important info.
+    - *Find us* has our location on google map.
+
+Contact us  
+![Contact us form](assets/images/readme/contact-us.jpg)
+
+Contact details  
+![Contact details](assets/images/readme/contact-details.jpg)
+
+Find us  
+![Find us](assets/images/readme/find-us.jpg)
+
+### Confirmation pages
+- one page for confirming booking and second page for confirming contact message.
+
+Booking confirmation  
+![Booking confirmation](assets/images/readme/booking-confirmation.jpg)
+
+Contact confirmation  
+![Contact confirmation](assets/images/readme/contact-confirmation.jpg)
 
 ## Testing
 
