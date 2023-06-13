@@ -79,36 +79,40 @@ HTML code of each page was validated with the W3C Markup Validation Service and 
 ### Google Lighthouse
 
 - index.html
-
 ![Google Lighthouse index page](assets/images/readme/index-lighthouse.jpg)
 
 - about.html
-
 ![Google Lighthouse about page](assets/images/readme/about-lighthouse.jpg)
 
 - booking.html
-
 ![Google Lighthouse home page](assets/images/readme/booking-lighthouse.jpg)
 
 - contact.html
-
 ![Google Lighthouse home page](assets/images/readme/contact-lighthouse.jpg)
 
 - booking-confirmation.html
-
 ![Google Lighthouse home page](assets/images/readme/booking-confirmation-lighthouse.jpg)
 
 - contact-confirmation.html
-
 ![Google Lighthouse home page](assets/images/readme/contact-confirmation-lighthouse.jpg)
 
+### Resolved bugs/issues
+
+- Html code for the menu for small screen sizes which I took from other website (mentioned in the credits) was causing bad SEO performance so I modified it. Icon for the menu was inside anchor element which had *href* attribute with *"javascript:void(0);"* as a value, I replaced anchor element with span element and kept only *onclick* attribute.
+
+- Button *more info* was causing bad SEO performance so had to rename it to *about tours* to get better performance even though I prefered first option.
+
+- Confirmation pages were not covering full screen on some devices, header, main content and footer together with margins didn't have enough height so on some screens there was white space under the footer. I had to put fixed height for main content to be sure to cover whole screen for every device even though I would prefer it without fixed height.
+
 ## Deployment
-- To deploy the website I used GitHub pages and followed these steps:
-    1. Open your *repository*.
-    2. Click on *settings* in the *navigation menu*.
-    3. Under *code and automation* choose *pages*.
-    4. Select the *main branch* and *save*.
-    5. Refresh a few times and the link to your website should appear shortly.
+
+To deploy the website I used GitHub pages and followed these steps:
+
+1. Open your *repository*.
+2. Click on *settings* in the *navigation menu*.
+3. Under *code and automation* choose *pages*.
+4. Select the *main branch* and *save*.
+5. Refresh a few times and the link to your website should appear shortly.
 
 ## Credits
 
@@ -142,4 +146,5 @@ HTML code of each page was validated with the W3C Markup Validation Service and 
 
 ## Acknowledgements
 
-I would like to thank my mentor **Akshat Garg** for his feedback and valuable advice.
+- I would like to thank my mentor **Akshat Garg** for his feedback and valuable advice.
+- I would also like to thank **Alan Bushell** our cohort facilitator and slack community, especially former students whose projects were inspiration for writing readme file.
