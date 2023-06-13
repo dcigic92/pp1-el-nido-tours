@@ -10,13 +10,31 @@
 
 ## Contents
 
+- [User experience](#user-experience)
+    - [Project goals](#project-goals)
+    - [User stories](#user-stories)
+- [Design](#design)
+    - [Colours](#colours)
+    - [Typography](#typography)
+    - [Site Structure](#site-structure)
 - [Technologies Used](#technologies-used)
+- [Features](#features)
+    - [Header](#header)
+    - [Navigation](#navigation)
+    - [Main content](#main-content)
+    - [Footer](#footer)
+    - [About page content](#about-page-content)
+    - [Booking page content](#booking-page-content)
+    - [Contact page content](#contact-page-content)
+    - [Confirmation pages](#confirmation-pages)
+    - [Features left to implement](#features-left-to-implement)
 - [Testing](#testing)
     - [Manual testing](#manual-testing)
     - [CSS Validation](#css-validation)
     - [HTML Validation](#html-validation)
     - [Google Lighthouse](#google-lighthouse)
     - [Resolved bugs/issues](#resolved-bugsissues)
+    - [Unresolved bugs/issues](#unresolved-bugsissues)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Images](#images)
@@ -54,29 +72,30 @@ The website contains 4 main pages and 2 confirmation pages that are used only as
 - HTML
 - CSS
 - Javascript
-- Git
-- Github
-- Visual Studio Code
-- W3Schools
-- Stack Overflow
-- Chrome DevTools
-- Google fonts
-- Google maps
-- Font Awesome
-- Favicon.io
-- Convertio.co
-- Coolors.co
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google fonts](https://fonts.google.com/)
+- [Google maps](https://www.google.co.uk/maps/)
+- [Font Awesome](https://fontawesome.com/)
+- [Favicon.io](https://favicon.io/)
+- [Convertio.co](https://convertio.co/)
+- [Coolors.co](https://coolors.co/)
+- [Image Resizer](https://imageresizer.com/)
 
 ## Features
 
 ### Header 
 - consists of main heading/logo and background photo taken on one of our tours.
-- header is on the top of every page.
+- header is on the top of each page.
 
 ![Header](assets/images/readme/header.jpg)
 
 ### Navigation
-- includes links to *Home*, *About*, *Booking* and *Contact* pages.
+- includes links to the *Home*, *About*, *Booking* and *Contact* pages.
 - navigation is fully responsive and for smaller screen sizes it turns into a "hamburger menu".
 
 Large screens navigation
@@ -87,8 +106,8 @@ Smaller screens navigation
 
 ### Main content
 - consists of 4 sections (different tour options).
-- every section has 2 buttons one with link to the about page and second with link to the booking page.
-- it's fully responsive and changing structure few times depending on screen size.
+- each section has a photo taken on our tour, list of attractions and 2 buttons one with a link to the about page and second with a link to the booking page.
+- it's fully responsive and changing structure few times depending on the screen size.
 
 Large screens main content
 ![Main content on large screens](assets/images/readme/main-content-large.jpg)
@@ -104,7 +123,7 @@ Very small screens main content
 
 ### Footer
 - consists of copyright text and social icons.
-- its responsive and for smaller screen sizes copyright text goes above social icons.
+- its responsive and for smaller screen sizes copyright text goes under the social icons.
 
 Large screens footer
 ![Footer for larger screens](assets/images/readme/Footer.jpg)
@@ -113,7 +132,7 @@ Smaller screens footer
 ![Footer for smaller sreens](assets/images/readme/small-footer.jpg)
 
 ### About page content
-- all important info about our tours
+- all the important info about our tours
 - button with link to the booking page
 
 ![About](assets/images/readme/about.jpg)
@@ -126,8 +145,8 @@ Smaller screens footer
 ### Contact page content
 - consists of 3 sections: 
     - *Contact us* is a simple form for the user to send us a message.
-    - *Contact info* has all important info.
-    - *Find us* has our location on google map.
+    - *Contact info* has all the important info.
+    - *Find us* has google map with our location.
 
 Contact us  
 ![Contact us form](assets/images/readme/contact-us.jpg)
@@ -146,6 +165,10 @@ Booking confirmation
 
 Contact confirmation  
 ![Contact confirmation](assets/images/readme/contact-confirmation.jpg)
+
+### Features left to implement
+- 404 page
+- One page for each tour
 
 ## Testing
 
@@ -209,6 +232,10 @@ HTML code of each page was validated with the W3C Markup Validation Service and 
 - Button *more info* was causing bad SEO performance so had to rename it to *about tours* to get better performance even though I prefered first option.
 
 - Confirmation pages were not covering full screen on some devices, header, main content and footer together with margins didn't have enough height so on some screens there was white space under the footer. I had to put fixed height for main content to be sure to cover whole screen for every device even though I would prefer it without fixed height.
+
+### Unresolved bugs/issues
+
+- It is possible to choose dates in the booking form that have already passed. Can't fix that with the HTML and CSS only.
 
 ## Deployment
 
