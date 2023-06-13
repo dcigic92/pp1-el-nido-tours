@@ -16,6 +16,7 @@
     - [CSS Validation](#css-validation)
     - [HTML Validation](#html-validation)
     - [Google Lighthouse](#google-lighthouse)
+    - [Resolved bugs/issues](#resolved-bugsissues)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Images](#images)
@@ -24,6 +25,18 @@
 - [Acknowledgements](#acknowledgements)
 
 ***
+
+## User experience
+
+### Project goals
+- To create a website which is going to present our tours to our customers and where they can find all the info they might need.
+- To eliminate the need for our customers to come to our office until the very beginning of the tour.
+
+### User stories
+- As a user, I want to be able to see all the tours and all the attractions that each tour offers.
+- As a user, I want to be able to see all the important info about tours before I decide to book my tour.
+- As a user, I want to be able to book my tour online.
+- As a user, I want to be able to find contact info easily and contact the agency if I have any queries.
 
 ## Technologies Used
 - HTML
