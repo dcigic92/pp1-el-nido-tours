@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@700&display=swap');
 
 html {
+    /* Snook’s variant of using rem for font sizing found in this article https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ */
     font-size: 62.5%;
 }
 
@@ -718,6 +719,7 @@ textarea {
         padding: 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        /* How to display an unordered list in two columns found on this link https://stackoverflow.com/questions/14745297/how-to-display-an-unordered-list-in-two-columns */
     }
 
     .buttons-container {
