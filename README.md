@@ -38,6 +38,18 @@
 - As a user, I want to be able to book my tour online.
 - As a user, I want to be able to find contact info easily and contact the agency if I have any queries.
 
+## Design
+
+### Colours
+Black, white, burlywood and saddlebrown are only colours used in this project.
+![Palette](assets/images/readme/palette.png)
+
+### Typography
+In this project I used google fonts. *Fjala one* font used for headings and menu, *Lato* font used for the body text.
+
+### Site Structure
+The website consists of 4 main pages and 2 confirmation pages that are intended only for feedback to the user after submitting booking or contact form.
+
 ## Technologies Used
 - HTML
 - CSS
@@ -53,6 +65,7 @@
 - Font Awesome
 - Favicon.io
 - Convertio.co
+- Coolors.co
 
 ## Testing
 
@@ -140,6 +153,8 @@ To deploy the website I used GitHub pages and followed these steps:
 
 - [Flaticon](https://www.flaticon.com/)
     - [Image](https://www.flaticon.com/free-icon/island_4617266) by [smashicons](https://www.flaticon.com/authors/smashicons) - favicon
+
+- [Coolors.co](https://coolors.co/) - Used to create pallete image for the readme file.
 
 ### Content
 
